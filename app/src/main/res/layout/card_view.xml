@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="282dp"
+        android:layout_height="424dp"
+        android:background="@drawable/card_back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#ffffff"
+
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/task"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:height="100dp"
+            android:gravity="center"
+            android:text="Определение главной информации текста"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/card_btn"
+
+            android:text="Перейти к заданию"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</RelativeLayout>

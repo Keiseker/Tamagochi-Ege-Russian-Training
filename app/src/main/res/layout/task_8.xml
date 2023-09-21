@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/theory_background">
+
+    <Button
+        android:id="@+id/backtotask8"
+        android:background="@drawable/back_btn"
+        android:layout_width="90dp"
+        android:layout_height="95dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#DCDCDC"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_marginTop="100dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:background="#DCDCDC">
+
+            <TextView
+                android:id="@+id/task_title"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="Установите соответствие между грамматическими ошибками и предложениями, в которых они допущены: к каждой позиции первого столбца подберите соответствующую позицию из второго столбца."
+                android:textColor="@android:color/background_dark"
+                android:gravity="center"
+                android:background="#ffff"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginTop="5dp"
+
+                        android:background="#ffff"
+
+                        android:gravity="center"
+                        android:text="ГРАММАТИЧЕСКИЕ ОШИБКИ"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/mistacke"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#ffffff"
+                        android:text="\tА)ошибка в построении предложения\nс однородными членами\n\n\tБ)неправильное употребление падежной формы существительного\nс предлогом\n\n\tВ) ошибка в построении предложения\nс деепричастным оборотом\n\n\tГ) неправильное построение предложения\nс косвенной речью\n\n\tД) ошибка в употреблении имени числительного"
+                        android:textColor="@android:color/background_dark" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+
+                        android:background="#ffffff"
+
+                        android:gravity="center"
+                        android:text="ПРЕДЛОЖЕНИЯ"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/show1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:gravity="center"
+                        android:text="1)Геофизики завершили и познакомили со своим исследованием научную общественность."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:padding="5dp"
+                        android:text="@string/Hide1"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show2"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent2"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="2)Как известно, понятие «художник» происходит от древнерусского слова «худое», имевшего прежде значение чудесности, колдовства, волшебства."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide2"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:padding="5dp"
+                        android:text="@string/Hide2"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:gravity="center"
+                        android:text="3)Вопреки правил пунктуации, журналисты часто употребляют тире вместо двоеточия."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:padding="5dp"
+                        android:text="@string/Hide3"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show4"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent4"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="4)Прославив своё имя исследованиями болезней и применением вакцин, у меня сложились замечательные отношения со всеми учеными."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide4"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:padding="5dp"
+                        android:text="@string/Hide4"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show5"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent5"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+
+                        android:gravity="center"
+                        android:text="5)Провалявшись часов до семи на кушетке, Крюков встал и начал думать, куда идти искать работу."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide5"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:padding="5dp"
+                        android:text="@string/Hide5"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show6"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent6"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="6)Овраги наносят огромный вред сельскому хозяйству, поэтому их в народе называют «болезнью земли»."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide6"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:padding="5dp"
+                        android:text="@string/Hide6"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show7"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent7"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="7)Отец геометрии Евклид произносил, когда заканчивал каждый свой математический вывод о том «Что и требовалось доказать»."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide7"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:padding="5dp"
+                        android:text="@string/Hide7"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show8"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent8"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:gravity="center"
+                        android:text="8)Ломоносов столько сделал для русской науки, сколько не сделал ни один учёный за двести с лишним лет."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide8"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+                        android:padding="5dp"
+                        android:text="@string/Hide8"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/show9"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+                        android:textColor="#090949"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sent9"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="#ffffff"
+
+
+                        android:gravity="center"
+                        android:text="9)Обе маленьких, беззащитных котёнка, сидели, дрожа всеми своими крохотными тельцами, несмотря на то, что их поместили в самое тёплое место в квартире."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hide9"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#ffffff"
+
+                        android:padding="5dp"
+                        android:text="@string/Hide9"
+                        android:textColor="#090949"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <EditText
+        android:id="@+id/answer_area"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_marginTop="640dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@android:color/background_dark"
+        android:background="#ffff"/>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/card_btn"
+        android:text="Подтвердить"/>
+
+</RelativeLayout>

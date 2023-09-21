@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RussianEge</string>
+    <string name="Show_text"><u>Показать текст</u></string>
+    <string name="Hide_text"><u>Скрыть текст</u></string>
+    <string name="Show_text_all"><u>Показать целиком</u></string>
+    <string name="Hide_text_all"><u>Скрыть</u></string>
+    <string name="Show1"><u>Показать 1</u></string>
+    <string name="Hide1"><u>Спрятать 1</u></string>
+    <string name="Show2"><u>Показать 2</u></string>
+    <string name="Hide2"><u>Спрятать 2</u></string>
+    <string name="Show3"><u>Показать 3</u></string>
+    <string name="Hide3"><u>Спрятать 3</u></string>
+    <string name="Show4"><u>Показать 4</u></string>
+    <string name="Hide4"><u>Спрятать 4</u></string>
+    <string name="Show5"><u>Показать 5</u></string>
+    <string name="Hide5"><u>Спрятать 5</u></string>
+    <string name="Show6"><u>Показать 6</u></string>
+    <string name="Hide6"><u>Спрятать 6</u></string>
+    <string name="Show7"><u>Показать 7</u></string>
+    <string name="Hide7"><u>Спрятать 7</u></string>
+    <string name="Show8"><u>Показать 8</u></string>
+    <string name="Hide8"><u>Спрятать 8</u></string>
+    <string name="Show9"><u>Показать 9</u></string>
+    <string name="Hide9"><u>Спрятать 9</u></string>
+    <string name="Main1"><font fgcolor='#ffffff'>Ястребы</font></string> <!--green-->
+</resources>
